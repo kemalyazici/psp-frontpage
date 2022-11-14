@@ -75,6 +75,7 @@ function Transactions() {
             ...prevState,
             [e.target.id]: e.target.value,
         }))
+        setPage(1)
     }
 
     const countryOpCurr = (curr) => {
